@@ -103,6 +103,9 @@
                                             case 'wysiwyg':
                                                 echo "<textarea name='$s->name' class='form-control wysiwyg'>$value</textarea>";
                                                 break;
+                                            case 'color':
+				echo "<input type='color' class='form-control' name='$s->name' value='$value'/>";
+			            break;
                                             case 'upload':
                                             case 'upload_image':
                                                 if($value) {
