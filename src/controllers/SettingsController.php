@@ -45,7 +45,7 @@ class SettingsController extends CBController {
 		$this->form[] = array('label'=>'Group','name'=>'group_setting','value'=>$value);
 		$this->form[] = array('label'=>'Label','name'=>'label');
 
-		$this->form[] = array("label"=>"Type","name"=>"content_input_type","type"=>"select","dataenum"=>array("text","number","email","textarea","wysiwyg","upload_image","upload_document","datepicker","radio","select"));		
+		$this->form[] = array("label"=>"Type","name"=>"content_input_type","type"=>"select","dataenum"=>array("text","number","email","textarea","wysiwyg","color","upload_image","upload_document","datepicker","radio","select"));		
 		$this->form[] = array("label"=>"Radio / Select Data","name"=>"dataenum","placeholder"=>"Example : abc,def,ghi","jquery"=>"
 			function show_radio_data() {
 				var cit = $('#content_input_type').val();
